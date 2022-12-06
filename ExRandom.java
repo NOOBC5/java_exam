@@ -115,7 +115,7 @@ public class ExRandom {
 			System.out.println("모든난이도 공통으로 점수는 0점부터 10점까지 있으며 파산하면 그 즉시 게임이 끝납니다 또한 다른 선택지를 고를 경우에도 게임이 끝납니다.");
 			System.out.println("easy모드는 돈을 기본적으로 100,000원을 드리며 맞추면 2배, 완전 틀리면 가진돈에 50%를 잃고 점수가 동점인경우에도 50%를 잃습니다.");
 			System.out.println("hard모드는 맞추기 어려운 대신 기본돈 10,000,000원 맞추면 5배 하나라도 맞추면 손해는 없고 전부 다 틀리면 50%를 잃습니다.");
-		}if(gameStage != 1 || gameStage != 2 || gameStage != 3) {
+		}if(gameStage != 1 && gameStage != 2 && gameStage != 3) {
 			System.out.println("다른 숫자를 선택하였습니다.");
 		}
 	}
