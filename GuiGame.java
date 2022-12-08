@@ -14,9 +14,9 @@ import javax.swing.JLabel;
 
 public class GuiGame extends JFrame{
 	ImageIcon[] img = {
-			new ImageIcon("./img/sissor.jpg"),
-			new ImageIcon("./img/rock.jpg"),
-			new ImageIcon("./img/paper.jpg")
+			new ImageIcon(" 사진경로 입력 "),
+			new ImageIcon(" 사진경로 입력 "),
+			new ImageIcon(" 사진경로 입력 ")
 	};
 	
 	class SelectPanel extends JPanel{
