@@ -27,13 +27,13 @@ class TimerNum extends JLabel implements Runnable {
 	public void run() {
 		while (true) {
 			try {
-				Thread.sleep(10);	// 1초
+				Thread.sleep(10);	// 0.001초
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 
 			if (millisecond >= 0) {
-				millisecond += 1;		// 1초씩 줄어듦
+				millisecond += 1;		// 0.001초씩 늘어남
 				setText(hh+" : "+mm+" : "+ss+" : "+millisecond);
 			}
 			else {
